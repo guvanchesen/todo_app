@@ -1,0 +1,89 @@
+body{
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0 1rem 0 0;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+
+}
+h1 {
+    color: rgb(226, 129, 245);
+    font-size: 7rem;
+    text-align: center;
+    margin: 0;
+}
+#add{
+    width: 35%;
+    height: auto;
+    float: left;
+}
+#list{
+    width: 65%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+form {
+    margin: 50% 0 0 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* width: 400px; */
+  }
+
+#finish_btn, #remove_btn{
+  margin: 0 1rem 0 0;
+  border: 1px solid gray;
+  padding: 0.5em;
+  border-radius: .5em;
+
+}
+
+#finish_btn  {
+    background-color: rgb(97, 255, 97);
+    
+}
+#remove_btn {
+  background-color: rgb(255, 61, 61);
+}
+  
+  .input {
+    border: none;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 30%;
+    position: fixed;
+    border: rgb(160, 0, 192) solid 0.2rem;
+  }
+  
+  .input::placeholder {
+    color: #d5d5d5;
+  }
+  
+  .input:focus {
+    outline-color: rgb(179, 131, 226);
+  }
+  .tasks {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .tasks li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  .tasks li button{
+    float: right;
+    text-align: center;
+  }
+  
+  .tasks li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+  }
